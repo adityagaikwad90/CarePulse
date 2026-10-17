@@ -1,0 +1,28 @@
+{
+  "name": "hospital-management-system",
+  "version": "1.0.0",
+  "description": "Hospital Management & Appointment Scheduling Platform with React, Node.js, Express & Firebase",
+  "main": "api/index.js",
+  "scripts": {
+    "dev:backend": "node --watch backend/server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "morgan": "^1.10.0"
+  },
+  "keywords": [
+    "hospital-management",
+    "appointments",
+    "react",
+    "express",
+    "firebase"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Service Account Private Key files (CRITICAL SECURITY)
+serviceAccountKey*.json
+*.pem
+
+# Local database file
+data/db.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
